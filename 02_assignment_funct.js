@@ -1,5 +1,5 @@
 //swap the two numbers or string.....
-var arg3=
+
 function swap_values(arg3,arg4);
 {
     console.log("------Before Swapping-------");
