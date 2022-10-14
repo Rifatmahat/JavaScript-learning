@@ -1,17 +1,54 @@
-var arg1;
-var arg2;
-var arg3;
-console.log("----additional function------");
-function addition(arg1,arg2,arg3){
-    console.log(arg1+arg2+arg3);
+function nayan() {
+    console.log("=========No Arguments & No Return Type==========");
+    console.log("Hii All");
+    console.log("How Are You ?");
 }
-addition(200,300,600);
-addition("Sachin","Ramesh","Team");
+nayan()
+function name(firstName, lastname) {
+    console.log("==============Concat=================");
+    console.log(firstName + lastname);
 
 
-function test(arg1, arg2) {
+}
+name("Komal", "Dhone")
+
+function swap_values(arg1, arg2) {
+    console.log("============Before Swap===============");
     console.log(arg1, arg2);
-    return "Sachin";
+
+    console.log("===========After Swap================");
+    var temp = arg1;
+    arg1 = arg2;
+    arg2 = temp;
+    console.log(arg1, arg2);
 }
-var val = test(23, 45, 60);
-console.log(val);
+swap_values("Virat", "Anushka")
+
+function swap_values(arg1, arg2) {
+    console.log("===========Before Swap=============");
+    console.log(arg1, arg2);
+    console.log("============After swap===========");
+    var temp = arg1;
+    arg1 = arg2;
+    arg2 = temp;
+    console.log(arg1, arg2);
+
+}
+swap_values("1000", "2000")
+
+
+function add_three_numbers(arg1,arg2,arg3){
+    console.log("========addition Of 3 Numbers with Return ========");
+console.log(arg1,arg2,arg3);
+console.log(arg1+arg2+arg3);
+return arg1+arg2+arg3
+
+}
+add_three_numbers("10.23","600","40")
+
+function add(arg1,arg2,arg3){
+    console.log("============Invoke===============");
+    console.log(arg1+arg2+arg3);
+
+
+}
