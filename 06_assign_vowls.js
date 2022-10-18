@@ -26,7 +26,8 @@ function evenPositionedChars(myString){
     for (let index = 0; index < myString.length; index++) {
        // console.log(index%2==0);
        var chh = myString.charAt(index);
-       if (index%2==0 && chh!=" ") {
+       if (index%2==0 && chh!=" ")
+        {
           console.log(chh);
        }
        //var chh = myString.charAt(index);
@@ -34,3 +35,4 @@ function evenPositionedChars(myString){
     }
 }
 evenPositionedChars("Hard work always pays back");
+
