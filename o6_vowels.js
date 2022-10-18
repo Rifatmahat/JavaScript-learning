@@ -22,8 +22,6 @@ for (let index = 0; index < givenString.length; index++) {
 }
 
 
-
-
 // WAP to just log the vowels from the given string ; a e i o u, A E  I O U 
 var givenString = "a I love JavaScript";
 console.log("================= Just log Vowels ======================");
