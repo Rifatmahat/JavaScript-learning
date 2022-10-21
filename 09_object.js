@@ -1,5 +1,19 @@
 
-let variable_name = "";
+let variable_name = "Miraj";
+
+const rifatm = 
+{
+  fullName:"Rifat M",
+  age:25,
+  "isMarried":true
+}
+
+console.log("=========== in operator================");
+let isAvailable = "fullName" in mohitPerson;
+console.log(isAvailable);
+console.log("city" in mohitPerson);
+console.log("===========================");
+
 let person = 
 {
     fullName: "Rifat Mahat",
