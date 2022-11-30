@@ -8,18 +8,21 @@ interface iProduct{
 }
 
 //implementation for interface 
-const Product:iProduct {
+const Product:iProduct 
+{
     productID:1,
     productName:'xyz',
     productPrice:4000,
-    display(){
+    display()
+    {
         console.log(`Product id = ${this.productID} productName = ${this.productName}  productPrice = ${this.productPrice}`);
 
     }
 }
 
 Product.display();
-const Android:iProduct={
+const Android:iProduct=
+{
     productID:2,
     productName:'android cell',
     productDescription:'related to product adroid',
